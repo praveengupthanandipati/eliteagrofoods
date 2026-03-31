@@ -16,7 +16,7 @@
                         <p class="lead mb-4">Elite Agro Foods proudly presents Elite Mart. Experience the freshest
                             groceries, farm-fresh Buffalo milk, and trusted staples—delivered straight to your
                             doorstep.</p>
-                        <div class="hero-btns">
+                        <div class="hero-btns d-none">
                             <a href="#mart" class="btn btn-primary-elite me-3">Shop Now at Elite Mart</a>
                             <a href="#milk" class="btn btn-outline-light-elite">Discover Our Farm Milk</a>
                         </div>
@@ -32,7 +32,7 @@
                         <h2 class="display-3 fw-bold">Pure, Unadulterated Goodness</h2>
                         <p class="lead mb-4">Start your day with the richness of fresh Buffalo milk, procured daily
                             from our farm with zero compromises on quality.</p>
-                        <div class="hero-btns">
+                        <div class="hero-btns d-none">
                             <a href="#milk" class="btn btn-primary-elite">Order Milk Now</a>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                         <h2 class="display-3 fw-bold">Hygienic Packaging for You</h2>
                         <p class="lead mb-4">We follow strict safety protocols and state-of-the-art packaging to
                             ensure your groceries remain fresh for longer.</p>
-                        <div class="hero-btns">
+                        <div class="hero-btns d-none">
                             <a href="#mart" class="btn btn-primary-elite">View Hygiene Standards</a>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                         <h2 class="display-3 fw-bold">Freshness Delivered Fast</h2>
                         <p class="lead mb-4">Our efficient logistics team works tirelessly to bring the farm's
                             bounty to your doorstep within 24 hours.</p>
-                        <div class="hero-btns">
+                        <div class="hero-btns d-none">
                             <a href="#mart" class="btn btn-primary-elite">Check Delivery Slots</a>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                         <h2 class="display-3 fw-bold">Trusted Kitchen Essentials</h2>
                         <p class="lead mb-4">From premium Basmati rice to farm-sourced pulses, stock your pantry
                             with nothing but the best from Elite Agro.</p>
-                        <div class="hero-btns">
+                        <div class="hero-btns d-none">
                             <a href="#mart" class="btn btn-primary-elite">Shop Staples</a>
                         </div>
                     </div>
@@ -143,6 +143,7 @@
 <section class="section-padding" id="services">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
+             <h6 class="text-uppercase text-primary fw-bold letter-spacing-2">Services</h6>
             <h2 class="section-title">What We Offer</h2>
             <div class="title-underline"></div>
         </div>
@@ -156,7 +157,7 @@
                         <h3>Elite Mart: Premium Online Grocery</h3>
                         <p>A seamless one-stop shop for all your daily needs, from fresh produce to kitchen
                             essentials.</p>
-                        <a href="#mart" class="btn btn-link text-primary p-0 fw-bold">Explore Elite Mart <i
+                        <a href="elitemart.php" class="btn btn-link text-primary p-0 fw-bold">Explore Elite Mart <i
                                 class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -170,7 +171,7 @@
                         <h3>Farm Milk: Pure Buffalo Goodness</h3>
                         <p>Freshly procured milk delivered directly to residents, ensuring maximum purity and taste.
                         </p>
-                        <a href="#milk" class="btn btn-link text-primary p-0 fw-bold">Order Farm Milk <i
+                        <a href="farmmilk.php" class="btn btn-link text-primary p-0 fw-bold">Order Farm Milk <i
                                 class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -183,7 +184,7 @@
                     <div class="service-details">
                         <h3>B2B & Bulk Services</h3>
                         <p>Custom packaging and family packs for businesses, restaurants, and large families.</p>
-                        <a href="#contact" class="btn btn-link text-primary p-0 fw-bold">Contact Bulk Sales <i
+                        <a href="businessb2b.php" class="btn btn-link text-primary p-0 fw-bold">Contact Bulk Sales <i
                                 class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
