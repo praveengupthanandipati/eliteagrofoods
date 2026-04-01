@@ -28,12 +28,13 @@
             </div>
             <div class="col-lg-6" data-aos="fade-left">
                 <h6 class="text-uppercase text-primary fw-bold letter-spacing-2 mb-3">The Elite Story</h6>
-                <h2 class="section-title mb-4">Cultivating Quality, Delivering Trust</h2>
+                <h2 class="section-title mb-4">About Elite Agro Foods <span class="fs-5 text-muted d-block mt-1">(Parent
+                        Company of Elite Mart)</span></h2>
                 <div class="about-text-content">
-                    <p class="fs-5 mb-4 text-muted">We are <strong>Elite Agro Foods</strong>, the driving force behind
+                    <p class="mb-4 text-muted">We are <strong>Elite Agro Foods</strong>, the driving force behind
                         the seamless grocery experience you get with Elite Mart. As the parent company, we specialize in
                         sustainable farming, ethical sourcing, and high-quality food production.</p>
-                    <p class="fs-5 mb-0 text-muted">Our mission is simple: to rebuild the connection between the farm
+                    <p class="mb-0 text-muted">Our mission is simple: to rebuild the connection between the farm
                         and your table. We ensure that every product—from farm-fresh vegetables to packaged staples and
                         our premium Buffalo milk—meets the highest standards of safety, freshness, and taste before it
                         ever reaches your doorstep.</p>
@@ -83,37 +84,69 @@
             <h2 class="section-title">Why Choose Us?</h2>
             <div class="title-underline"></div>
         </div>
-        <div class="row g-4 justify-content-center">
+        <div class="row g-4">
             <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
-                <div class="why-feature text-center">
-                    <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
-                    <h4>Quality Assurance</h4>
-                    <p class="small text-muted">Strict quality control protocols ensure every product is safe, fresh,
-                        and premium.</p>
+                <div class="why-feature text-center h-100">
+                    <div class="feature-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <h4>Established in 2024</h4>
+                    <p class="small text-muted">A new-generation agri-food company with a fresh vision for farm-to-table
+                        excellence.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
-                <div class="why-feature text-center">
-                    <div class="feature-icon"><i class="fas fa-handshake"></i></div>
-                    <h4>Trusted Partnerships</h4>
-                    <p class="small text-muted">We collaborate with trusted millers and manufacturers to complement our
-                        farm-fresh range.</p>
+                <div class="why-feature text-center h-100">
+                    <div class="feature-icon"><i class="fas fa-tractor"></i></div>
+                    <h4>Farm-Owned & Operated</h4>
+                    <p class="small text-muted">Direct control over sourcing, quality, and supply chain from farm to
+                        consumer.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
-                <div class="why-feature text-center">
-                    <div class="feature-icon"><i class="fas fa-box-open"></i></div>
-                    <h4>Hygienic Packaging</h4>
-                    <p class="small text-muted">From milk pouches to grocery packs, all products are sealed under strict
-                        hygiene protocols.</p>
+                <div class="why-feature text-center h-100">
+                    <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+                    <h4>Sustainable Farming</h4>
+                    <p class="small text-muted">Committed to eco-friendly cultivation and responsible resource
+                        management.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
-                <div class="why-feature text-center">
-                    <div class="feature-icon"><i class="fas fa-truck-fast"></i></div>
-                    <h4>Convenience</h4>
-                    <p class="small text-muted">A fast delivery network that respects your time and ensures timely
-                        freshness.</p>
+                <div class="why-feature text-center h-100">
+                    <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+                    <h4>Ethical Sourcing</h4>
+                    <p class="small text-muted">Partnering with local farmers who follow humane practices and fair trade
+                        principles.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+                <div class="why-feature text-center h-100">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h4>Zero-Compromise Quality</h4>
+                    <p class="small text-muted">Every batch is tested for purity, safety, and freshness before delivery.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+                <div class="why-feature text-center h-100">
+                    <div class="feature-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h4>Traceability Guarantee</h4>
+                    <p class="small text-muted">Know exactly where your food comes from with our transparent supply
+                        chain.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+                <div class="why-feature text-center h-100">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h4>Locally Rooted</h4>
+                    <p class="small text-muted">Supporting local farming communities while delivering premium quality to
+                        urban families.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="800">
+                <div class="why-feature text-center h-100">
+                    <div class="feature-icon"><i class="fas fa-user-heart"></i></div>
+                    <h4>Customer-First Approach</h4>
+                    <p class="small text-muted">Designed for modern households who value health, convenience, and trust.
+                    </p>
                 </div>
             </div>
         </div>
