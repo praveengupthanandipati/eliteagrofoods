@@ -6,8 +6,7 @@
         <div class="swiper-wrapper">
             <!-- Slide 1 -->
             <div class="swiper-slide">
-                <div class="hero-image"
-                    style="background-image: url('img/hero01.jpg')">
+                <div class="hero-image" style="background-image: url('img/hero01.jpg')">
                 </div>
                 <div class="container hero-content-wrapper">
                     <div class="hero-content" data-aos="fade-up">
@@ -143,7 +142,7 @@
 <section class="section-padding" id="services">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-             <h6 class="text-uppercase text-primary fw-bold letter-spacing-2">Services</h6>
+            <h6 class="text-uppercase text-primary fw-bold letter-spacing-2">Services</h6>
             <h2 class="section-title">What We Offer</h2>
             <div class="title-underline"></div>
         </div>
@@ -157,15 +156,15 @@
                         <h3>Elite Mart: Premium Online Grocery</h3>
                         <p>A seamless one-stop shop for all your daily needs, from fresh produce to kitchen
                             essentials.</p>
-                        <a href="elitemart.php" class="btn btn-link text-primary p-0 fw-bold">Explore Elite Mart <i
+                        <a href="https://elitemart.co.in/home" target="_blank"
+                            class="btn btn-link text-primary p-0 fw-bold">Shop at Elite Mart <i
                                 class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
                 <div class="service-box">
-                    <div class="service-image"
-                        style="background-image: url('img/farmmilk-service-home.jpg')">
+                    <div class="service-image" style="background-image: url('img/farmmilk-service-home.jpg')">
                     </div>
                     <div class="service-details">
                         <h3>Farm Milk: Pure Buffalo Goodness</h3>
@@ -178,8 +177,7 @@
             </div>
             <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
                 <div class="service-box">
-                    <div class="service-image"
-                        style="background-image: url('img/b2bservice.jpg')">
+                    <div class="service-image" style="background-image: url('img/b2bservice.jpg')">
                     </div>
                     <div class="service-details">
                         <h3>B2B & Bulk Services</h3>
@@ -217,7 +215,8 @@
         <p class="lead mb-5 opacity-75 max-width-700 mx-auto">Join the Elite family and experience the difference that
             true farm-fresh quality makes.</p>
         <div class="d-flex flex-wrap justify-content-center gap-3">
-            <a href="elitemart.php" class="btn btn-secondary-elite btn-lg px-5 py-3">Visit Elite Mart</a>
+            <a href="https://elitemart.co.in/home" target="_blank"
+                class="btn btn-secondary-elite btn-lg px-5 py-3">Visit Elite Mart</a>
             <a href="farmmilk.php" class="btn btn-outline-light-elite btn-lg px-5 py-3">Order Farm Milk</a>
         </div>
     </div>
@@ -242,7 +241,8 @@
                         <h4 class="blog-title"><a href="#">The Benefits of Fresh Buffalo Milk</a></h4>
                         <p class="blog-excerpt">Discover why pure buffalo milk is the ultimate choice for your
                             family's health and nutrition...</p>
-                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        <a href="benefitsof-fresh-buffalomilk.php" class="read-more">Read More <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -253,10 +253,11 @@
                         <span class="blog-date">Mar 25, 2024</span>
                     </div>
                     <div class="blog-body">
-                        <h4 class="blog-title"><a href="#">From Farm to Table: Our Quality Journey</a></h4>
+                        <h4 class="blog-title"><a href="fromfarmtotable.php">From Farm to Table: Our Quality Journey</a>
+                        </h4>
                         <p class="blog-excerpt">Take a behind-the-scenes look at how we source and deliver the
                             freshest produce to your doorstep...</p>
-                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        <a href="fromfarmtotable.php" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -267,10 +268,12 @@
                         <span class="blog-date">Mar 22, 2024</span>
                     </div>
                     <div class="blog-body">
-                        <h4 class="blog-title"><a href="#">Essential Grocery Staples for Every Kitchen</a></h4>
+                        <h4 class="blog-title"><a href="essential-grocerystaples.php">Essential Grocery Staples for
+                                Every Kitchen</a></h4>
                         <p class="blog-excerpt">Stock your pantry like a pro with these essential items that every
                             household should have ready...</p>
-                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        <a href="essential-grocerystaples.php" class="read-more">Read More <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -281,10 +284,12 @@
                         <span class="blog-date">Mar 20, 2024</span>
                     </div>
                     <div class="blog-body">
-                        <h4 class="blog-title"><a href="#">Why Organic Produce is Worth the Investment</a></h4>
+                        <h4 class="blog-title"><a href="whyorganicproduce.php">Why Organic Produce is Worth the
+                                Investment</a></h4>
                         <p class="blog-excerpt">Explore the long-term benefits of switching to organic vegetables
                             and fruits for your well-being...</p>
-                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        <a href="whyorganicproduce.php" class="read-more">Read More <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

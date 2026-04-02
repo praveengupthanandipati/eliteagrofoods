@@ -1,19 +1,44 @@
-<!-- Newsletter Section -->
+<!-- Simplified Company section (Formerly Newsletter) -->
 <section class="newsletter-section">
     <div class="container overflow-hidden">
-        <div class="newsletter-card" data-aos="zoom-in">
+        <div class="newsletter-card py-5" data-aos="zoom-in">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <h2 class="mb-2">Subscribe to Our Newsletter</h2>
-                    <p class="mb-0 text-white-50">Get the latest farm updates and exclusive Elite Mart offers.</p>
+                    <h2 class="display-6 fw-bold mb-3">Elite Agro Foods: Purely Sustainable</h2>
+                    <p class="mb-0 text-white-75">Your ultimate farm-to-table partner, delivering fresh organic produce
+                        and unadulterated Buffalo milk directly from our sustainable fields to your home.</p>
                 </div>
                 <div class="col-lg-6">
-                    <form class="newsletter-form">
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Enter your email address" required>
-                            <button class="btn btn-secondary-elite" type="submit">Subscribe Now</button>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="icon-circle-sm me-3 bg-secondary-elite text-primary-dark rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;"><i class="fas fa-leaf"></i></div>
+                                <span class="small text-white">Sustainable Farming</span>
+                            </div>
                         </div>
-                    </form>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="icon-circle-sm me-3 bg-secondary-elite text-primary-dark rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;"><i class="fas fa-shield-halved"></i></div>
+                                <span class="small text-white">Zero-Compromise Quality</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="icon-circle-sm me-3 bg-secondary-elite text-primary-dark rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;"><i class="fas fa-hand-holding-heart"></i></div>
+                                <span class="small text-white">Ethical Sourcing</span>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <div class="icon-circle-sm me-3 bg-secondary-elite text-primary-dark rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;"><i class="fas fa-truck-fast"></i></div>
+                                <span class="small text-white">Direct Delivery</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

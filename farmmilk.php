@@ -7,23 +7,6 @@
             <div class="col-lg-7" data-aos="fade-right">
                 <span class="hero-tag mb-3 bg-white text-primary">Farm Fresh Daily</span>
                 <h1 class="display-3 fw-bold mb-4">Pure Buffalo Milk.<br>Fresh From the Farm.</h1>
-                <p class="lead mb-5 opacity-90">Experience the richness of unadulterated, farm-fresh Buffalo milk,
-                    procured daily and delivered directly to your home early every morning.</p>
-                <div class="milk-hero-btns">
-                    <a href="#subscribe" class="btn btn-secondary-elite btn-lg me-sm-3 mb-3">Subscribe Now</a>
-                    <a href="#why-milk" class="btn btn-outline-light-elite btn-lg mb-3">Learn More</a>
-                </div>
-            </div>
-            <div class="col-lg-5 d-none d-lg-block" data-aos="zoom-in">
-                <div class="milk-hero-img-wrapper">
-                    <img src="https://images.unsplash.com/photo-1523473009695-c3a5124b89ef?auto=format&fit=crop&q=80&w=800"
-                        alt="Farm Fresh Milk Bottle"
-                        class="img-fluid rounded-pill shadow-lg border border-5 border-white">
-                    <div class="floating-badge shadow">
-                        <span class="fw-bold">100%</span>
-                        <small>Pure</small>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -161,7 +144,8 @@
                     <p class="mb-4 text-white-50">You can count on us to have your milk delivered early, ready for your
                         family's breakfast.</p>
                     <div class="border-top border-white border-opacity-25 pt-4">
-                        <p class="small mb-0">Current Service Areas: <strong>All Across Hyderabad</strong></p>
+                        <p class="small mb-0">Current Service Areas: <strong>Mallampet, Bachupally & IDA
+                                Bollaram</strong></p>
                     </div>
                 </div>
             </div>
@@ -179,10 +163,10 @@
                     <p class="lead mb-5 text-muted">Switch to pure, healthy Buffalo milk. Join our community of
                         satisfied families and start your daily delivery subscription today.</p>
                     <div class="cta-buttons">
-                        <a href="https://wa.me/919876543210" class="btn btn-primary-elite btn-xl me-sm-3 mb-3">
+                        <a href="https://wa.me/+917799771189" target="_blank" class="btn btn-primary-elite btn-xl me-sm-3 mb-3">
                             <i class="fab fa-whatsapp me-2"></i>Subscribe Now
                         </a>
-                        <a href="#contact" class="btn btn-outline-primary-elite btn-xl mb-3">Contact Us for Delivery</a>
+                        <a href="contact.php" class="btn btn-outline-primary-elite btn-xl mb-3">Contact Us for Delivery</a>
                     </div>
                 </div>
             </div>

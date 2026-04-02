@@ -153,15 +153,4 @@
     </div>
 </section>
 
-<!-- Section 4: Our Commitment -->
-<section class="commitment-section bg-primary text-white text-center py-5">
-    <div class="container py-4" data-aos="fade-up">
-        <h2 class="display-5 fw-bold mb-4">Quality You Can Trust</h2>
-        <p class="lead mb-5 max-width-700 mx-auto opacity-75">We are committed to bringing you uncompromising quality
-            and convenience. Whether you are a family looking for pure milk or a business needing bulk staples, Elite
-            Agro Foods and Elite Mart are your partners in health and satisfaction.</p>
-        <a href="#contact" class="btn btn-secondary-elite btn-lg">Partner With Us</a>
-    </div>
-</section>
-
 <?php include 'includes/footer.php'; ?>

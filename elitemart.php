@@ -34,7 +34,6 @@
                         style="background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Farm-Fresh Vegetables</h3>
-                            <a href="#" class="btn btn-sm btn-light">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +45,6 @@
                         <div class="category-overlay">
                             <h3>Dairy & Eggs</h3>
                             <p class="small text-white-50">Featuring Our Farm Milk</p>
-                            <a href="#" class="btn btn-sm btn-light">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +56,6 @@
                         <div class="category-overlay">
                             <h3>Staples</h3>
                             <p class="small text-white-50">Rice, Flour, Pulses</p>
-                            <a href="#" class="btn btn-sm btn-light">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +68,6 @@
                         style="background-image: url('https://images.unsplash.com/photo-1559181567-c3190ca9959b?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Snacks & Beverages</h3>
-                            <a href="#" class="btn btn-sm btn-light">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +78,6 @@
                         style="background-image: url('https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Personal Care</h3>
-                            <a href="#" class="btn btn-sm btn-light">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -93,7 +88,6 @@
                         style="background-image: url('https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Bakery & Biscuits</h3>
-                            <a href="#" class="btn btn-sm btn-light">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +100,6 @@
                         style="background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Frozen Foods</h3>
-                            <a href="#" class="btn btn-sm btn-light">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -117,7 +110,6 @@
                         style="background-image: url('https://images.unsplash.com/photo-1583947581924-860bda6a26df?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Home Essentials</h3>
-                            <a href="#" class="btn btn-sm btn-light">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -128,7 +120,6 @@
                         style="background-image: url('https://images.unsplash.com/photo-1544126592-807daa2b56ff?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Baby & Pet Care</h3>
-                            <a href="#" class="btn btn-sm btn-light">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -197,14 +188,21 @@
             <div class="col-lg-6" data-aos="fade-left">
                 <div class="service-vignette p-5 rounded-4 bg-primary text-white">
                     <h3 class="mb-4">Special Offer!</h3>
-                    <p class="lead mb-4">Get 20% OFF on your first Family Pack order above ₹2000.</p>
                     <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="fas fa-check-circle me-2 text-secondary"></i> Premium Quality Flour
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-truck-fast me-3 text-secondary-elite fs-4"></i>
+                            <span class="fs-5">Free Delivery on min Purchase of ₹500</span>
                         </li>
-                        <li class="mb-2"><i class="fas fa-check-circle me-2 text-secondary"></i> Long-Grain Basmati</li>
-                        <li><i class="fas fa-check-circle me-2 text-secondary"></i> Farm-Direct Pulses</li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-percent me-3 text-secondary-elite fs-4"></i>
+                            <span class="fs-5">5% Discount for every ₹1000 of billing</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="fas fa-box-open me-3 text-secondary-elite fs-4"></i>
+                            <span class="fs-5">Premium Packing Guaranteed</span>
+                        </li>
                     </ul>
-                    <a href="#" class="btn btn-secondary-elite">Claim Offer</a>
+                    <a href="#" class="btn btn-secondary-elite btn-lg">Order Now</a>
                 </div>
             </div>
         </div>
