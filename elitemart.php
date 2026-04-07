@@ -34,7 +34,8 @@
                         style="background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Farm-Fresh Vegetables</h3>
-                            <p class="small text-white-50">Crisp, farm-fresh vegetables, bursting with flavor, harvested daily for your healthy table.</p>
+                            <p class="small text-white-50">Crisp, farm-fresh vegetables, bursting with flavor, harvested
+                                daily for your healthy table.</p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +46,8 @@
                         style="background-image: url('https://images.unsplash.com/photo-1528498033373-3c6c08e93d79?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Dairy & Eggs</h3>
-                            <p class="small text-white-50">Fresh, creamy dairy and farm-laid eggs, rich in protein and flavor, delivered daily.</p>
+                            <p class="small text-white-50">Fresh, creamy dairy and farm-laid eggs, rich in protein and
+                                flavor, delivered daily.</p>
                         </div>
                     </div>
                 </div>
@@ -56,7 +58,8 @@
                         style="background-image: url('https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Staples</h3>
-                            <p class="small text-white-50">Rice, Flour, Pulses, and other essential grains for your daily meals.</p>
+                            <p class="small text-white-50">Rice, Flour, Pulses, and other essential grains for your
+                                daily meals.</p>
                         </div>
                     </div>
                 </div>
@@ -69,7 +72,8 @@
                         style="background-image: url('https://images.unsplash.com/photo-1559181567-c3190ca9959b?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Snacks & Beverages</h3>
-                            <p class="small text-white-50">Tasty snacks and refreshing beverages to satisfy your cravings anytime.</p>
+                            <p class="small text-white-50">Tasty snacks and refreshing beverages to satisfy your
+                                cravings anytime.</p>
                         </div>
                     </div>
                 </div>
@@ -80,7 +84,8 @@
                         style="background-image: url('https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Personal Care</h3>
-                            <p class="small text-white-50">Gentle soaps, oral care, and natural essentials for your daily health and wellness routine.</p>
+                            <p class="small text-white-50">Gentle soaps, oral care, and natural essentials for your
+                                daily health and wellness routine.</p>
                         </div>
                     </div>
                 </div>
@@ -91,7 +96,8 @@
                         style="background-image: url('https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Bakery & Biscuits</h3>
-                            <p class="small text-white-50">Freshly baked bread, pastries, and a variety of biscuits to delight your taste buds.</p>
+                            <p class="small text-white-50">Freshly baked bread, pastries, and a variety of biscuits to
+                                delight your taste buds.</p>
                         </div>
                     </div>
                 </div>
@@ -104,7 +110,8 @@
                         style="background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Frozen Foods</h3>
-                            <p class="small text-white-50">Convenient frozen veggies, snacks, and meals—preserved fresh, ready when you need them.</p>
+                            <p class="small text-white-50">Convenient frozen veggies, snacks, and meals—preserved fresh,
+                                ready when you need them.</p>
                         </div>
                     </div>
                 </div>
@@ -115,18 +122,19 @@
                         style="background-image: url('https://images.unsplash.com/photo-1583947581924-860bda6a26df?auto=format&fit=crop&q=80&w=800')">
                         <div class="category-overlay">
                             <h3>Home Essentials</h3>
-                            <p class="small text-white-50">Everyday household items to keep your home running smoothly and efficiently.</p>
+                            <p class="small text-white-50">Everyday household items to keep your home running smoothly
+                                and efficiently.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="900">
                 <div class="category-card">
-                    <div class="category-img"
-                        style="background-image: url('https://images.unsplash.com/photo-1544126592-807daa2b56ff?auto=format&fit=crop&q=80&w=800')">
+                    <div class="category-img" style="background-image: url('img/baby-pet-care.png')">
                         <div class="category-overlay">
                             <h3>Baby & Pet Care</h3>
-                            <p class="small text-white-50">Essential products for the care and well-being of your little ones and furry friends.</p>
+                            <p class="small text-white-50">Essential products for the care and well-being of your little
+                                ones and furry friends.</p>
                         </div>
                     </div>
                 </div>

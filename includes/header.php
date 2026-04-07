@@ -41,7 +41,6 @@
                     <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'about.php') ? 'active' : ''; ?>" href="about.php">About Us</a></li>
                     <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'elitemart.php') ? 'active' : ''; ?>" href="elitemart.php">Elite Mart</a></li>
                     <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'farmmilk.php') ? 'active' : ''; ?>" href="farmmilk.php">Farm Milk</a></li>
-                    <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'businessb2b.php') ? 'active' : ''; ?>" href="businessb2b.php">B2B Services</a></li>
                     <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>" href="contact.php">Contact</a></li>
                 </ul>
                 <div class="nav-cta ms-lg-4">

@@ -71,7 +71,6 @@
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="elitemart.php">Elite Mart</a></li>
                     <li><a href="farmmilk.php">Farm Milk</a></li>
-                    <li><a href="businessb2b.php">B2B Services</a></li>
                 </ul>
             </div>
 
@@ -82,7 +81,6 @@
                     <li><a href="farmmilk.php">Buffalo Milk</a></li>
                     <li><a href="elitemart.php">Fresh Vegetables</a></li>
                     <li><a href="elitemart.php">Grocery Staples</a></li>
-                    <li><a href="businessb2b.php">Bulk Inquiries</a></li>
                     <li><a href="contact.php">Contact Support</a></li>
                 </ul>
             </div>
@@ -186,7 +184,100 @@
             backToTop.classList.remove('show');
         }
     });
+
+    // Cookie Consent Logic
+    document.addEventListener('DOMContentLoaded', function () {
+        const cookieConsent = document.getElementById('cookieConsent');
+        const acceptCookies = document.getElementById('acceptCookies');
+
+        // Check if user has already accepted cookies
+        if (!localStorage.getItem('elite_cookies_accepted')) {
+            setTimeout(() => {
+                if(cookieConsent) cookieConsent.classList.add('show');
+            }, 2000); // Show after 2 seconds
+        }
+
+        if(acceptCookies) {
+            acceptCookies.addEventListener('click', function () {
+                localStorage.setItem('elite_cookies_accepted', 'true');
+                cookieConsent.classList.remove('show');
+            });
+        }
+    });
 </script>
+
+<!-- Cookie Consent Popup -->
+<div class="cookie-consent-banner" id="cookieConsent">
+    <div class="container">
+        <div class="cookie-content-wrapper  align-items-center justify-content-between">
+            <div class="cookie-text mb-4 mb-md-0 me-md-4">
+                <div class="d-flex align-items-center mb-2">                    
+                    <h5 class="mb-0 fw-bold">We value your privacy</h5>
+                </div>
+                <p class="mb-0 opacity-75 small">We use cookies to enhance your browsing experience and provide
+                    personalized service. By clicking "Accept All", you consent to our use of cookies.</p>
+            </div>
+            <div class="cookie-actions d-flex gap-3 mt-4">
+                <a href="cookies.php" class="btn btn-link btn-sm text-dark text-decoration-none fw-bold">Learn More</a>
+                <button class="btn btn-success rounded-pill px-4 shadow-sm" id="acceptCookies">Accept All</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Cookie Consent Styling */
+    .cookie-consent-banner {
+        position: fixed;
+        bottom: -150px;
+        left: 20px;
+        right: 20px;
+        background: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(3, 101, 46, 0.1);
+        padding: 25px 0;
+        z-index: 9999;
+        border-radius: 25px;
+        box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.05);
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .cookie-consent-banner.show {
+        bottom: 25px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .cookie-content-wrapper {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .cookie-icon {
+        width: 30px;
+        height: 30px;
+        background: var(--secondary-elite);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+    }
+
+    @media (min-width: 992px) {
+        .cookie-consent-banner {
+            left: 50px;
+            right: 50px;
+            bottom: -100px;
+        }
+
+        .cookie-consent-banner.show {
+            bottom: 40px;
+        }
+    }
+</style>
 </body>
 
 </html>

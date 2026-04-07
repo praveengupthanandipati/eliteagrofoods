@@ -28,8 +28,7 @@
             </div>
             <div class="col-lg-6" data-aos="fade-left">
                 <h6 class="text-uppercase text-primary fw-bold letter-spacing-2 mb-3">The Elite Story</h6>
-                <h2 class="section-title mb-4">About Elite Agro Foods <span class="fs-5 text-muted d-block mt-1">(Parent
-                        Company of Elite Mart)</span></h2>
+                <h2 class="section-title mb-4">About Elite Agro Foods </h2>
                 <div class="about-text-content">
                     <p class="mb-4 text-muted">We are <strong>Elite Agro Foods</strong>, the driving force behind
                         the seamless grocery experience you get with Elite Mart. As the parent company, we specialize in
