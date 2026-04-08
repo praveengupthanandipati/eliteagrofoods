@@ -52,9 +52,8 @@
             <!-- 1. Introduction -->
             <div class="col-lg-3 col-md-6 mb-5">
                 <div class="footer-about">
-                    <h3 class="footer-logo mb-4">ELITE<span>AGRO</span></h3>
-                    <p class="mb-4">Connecting the purity of the farm with the convenience of your table since 2024.
-                        Your trusted partner for organic and fresh essentials.</p>
+                    <h3 class="footer-logo mb-4">ELITE<span>AGRO FOODS</span></h3>
+                    <p class="mb-4">Bringing the honest purity of the farm straight to the ease of your table—since 2024. Your trusted companion for fresh, organic, everyday essentials.</p>
                     <div class="social-links">
                         <a href="#" class="facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
@@ -67,39 +66,29 @@
             <div class="col-lg-3 col-md-6 mb-5 ps-lg-5">
                 <h4 class="footer-title">Quick Links</h4>
                 <ul class="list-unstyled footer-links">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="https://eliteagrofoods.com/">Home</a></li>
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="elitemart.php">Elite Mart</a></li>
                     <li><a href="farmmilk.php">Farm Milk</a></li>
+                    <li><a href="blogs.php">Blogs</a></li>
                 </ul>
             </div>
-
-            <!-- 3. Store Sections -->
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="footer-title">Our Store</h4>
-                <ul class="list-unstyled footer-links">
-                    <li><a href="farmmilk.php">Buffalo Milk</a></li>
-                    <li><a href="elitemart.php">Fresh Vegetables</a></li>
-                    <li><a href="elitemart.php">Grocery Staples</a></li>
-                    <li><a href="contact.php">Contact Support</a></li>
-                </ul>
-            </div>
-
+          
             <!-- 4. Contact Details -->
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="footer-title">Get In Touch</h4>
                 <div class="contact-card">
                     <div class="contact-item mb-3">
                         <div class="contact-icon"><i class="fas fa-location-dot"></i></div>
-                        <div class="contact-text">123 Farm Drive, Green Valley, Hyderabad, India</div>
+                        <div class="contact-text">14-179, BC Colony, Kazipally Road, Bollaram, Hyderabad 502320</div>
                     </div>
                     <div class="contact-item mb-3">
                         <div class="contact-icon"><i class="fas fa-phone"></i></div>
-                        <div class="contact-text">+91 98765 43210</div>
+                        <div class="contact-text">+91 7799771189</div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon"><i class="fas fa-clock"></i></div>
-                        <div class="contact-text">Mon - Sun: 06 AM - 10 PM</div>
+                        <div class="contact-text">Mon - Sun: 07 AM - 10 PM</div>
                     </div>
                 </div>
             </div>

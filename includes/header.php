@@ -28,7 +28,7 @@
     <!-- Header / Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="https://eliteagrofoods.com/">
                 <img src="img/logo.svg" alt="Elite Agro Foods Logo"/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <?php $current_page = basename($_SERVER['PHP_SELF']); ?>
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'index.php') ? 'active' : ''; ?>" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'index.php') ? 'active' : ''; ?>" href="https://eliteagrofoods.com/">Home</a></li>
                     <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'about.php') ? 'active' : ''; ?>" href="about.php">About Us</a></li>
                     <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'elitemart.php') ? 'active' : ''; ?>" href="elitemart.php">Elite Mart</a></li>
                     <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'farmmilk.php') ? 'active' : ''; ?>" href="farmmilk.php">Farm Milk</a></li>

@@ -41,7 +41,7 @@
                     <p>Under certain circumstances, you have rights under data protection laws in relation to your personal data, including the right to request access, correction, erasure, restriction, transfer, to object to processing, to portability of data and (where the lawful ground of processing is consent) to withdraw consent.</p>
 
                     <h2 class="mt-5 mb-4">6. Contact Us</h2>
-                    <p>If you have any questions about this privacy policy or our privacy practices, please contact our data privacy manager at: <strong>privacy@eliteagrofoods.com</strong></p>
+                    <p>If you have any questions about this privacy policy or our privacy practices, please contact our data privacy manager at: <strong>info@eliteagrofoods.com</strong></p>
                 </div>
             </div>
         </div>

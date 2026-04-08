@@ -33,7 +33,7 @@
                     <p>We may also use third-party cookies, such as those from Google Analytics, to help us understand how our website is being used and to improve our services.</p>
 
                     <h2 class="mt-5 mb-4">5. More Information</h2>
-                    <p>For more information about our use of cookies, please contact us at: <strong>privacy@eliteagrofoods.com</strong></p>
+                    <p>For more information about our use of cookies, please contact us at: <strong>info@eliteagrofoods.com</strong></p>
                 </div>
             </div>
         </div>

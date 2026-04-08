@@ -1,4 +1,5 @@
 <?php include 'includes/header.php'; ?>
+<?php include 'includes/data.php'; ?>
 
 <!-- Hero Section: Immersive & Dynamic -->
 <header class="hero-premium">
@@ -305,11 +306,7 @@
         font-weight: 800;
     }
 
-    .text-gradient-green {
-        background: linear-gradient(135deg, #dbee35 0%, #03652e 100%);
-        /* -webkit-background-clip: text; */
-        -webkit-text-fill-color: transparent;
-    }
+
 
     /* Hero Premium */
     .hero-premium {
@@ -447,10 +444,13 @@
     }
 
     .text-gradient-green {
-        background: linear-gradient(45deg, var(--primary-elite), #2a8a52);
+        /* background: linear-gradient(45deg, var(--primary-elite), #2a8a52); */
         /* -webkit-background-clip: text; */
-        -webkit-text-fill-color: transparent;
+        /* -webkit-text-fill-color: transparent; */
+        color: #dbee35;
     }
+
+  
 
     /* Service Section Dark Styles */
     .bg-dark-service {
@@ -593,7 +593,7 @@
         overflow: hidden;
     }
 
-    .premium-cta::after {
+    /* .premium-cta::after {
         content: "";
         position: absolute;
         top: 0;
@@ -602,7 +602,7 @@
         height: 100%;
         background: radial-gradient(circle at 10% 90%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
             radial-gradient(circle at 90% 10%, rgba(0, 0, 0, 0.2) 0%, transparent 50%);
-    }
+    } */
 
     @media (max-width: 991px) {
         .bento-grid {

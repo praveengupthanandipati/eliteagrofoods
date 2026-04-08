@@ -48,6 +48,14 @@ h1, h2, h3, .navbar-brand {
   margin: 0 auto;
 }
 
+.text-secondary {
+  color: #dbee35 !important;
+}
+
+.text-primary {
+  color: #03652e !important;
+}
+
 .max-width-700 {
   max-width: 700px;
 }
@@ -166,6 +174,9 @@ h1, h2, h3, .navbar-brand {
   box-shadow: 0 5px 15px rgba(219, 238, 53, 0.3);
   color: #03652e;
 }
+.btn-secondary-elite:hover {
+  background: white;
+}
 
 .btn-outline-light-elite {
   padding: 12px 28px;
@@ -187,10 +198,6 @@ h1, h2, h3, .navbar-brand {
 }
 .btn-outline-light-elite {
   border: 2px solid #ffffff;
-}
-.btn-outline-light-elite:hover {
-  background-color: #ffffff;
-  color: #03652e;
 }
 
 /* Hero Section */

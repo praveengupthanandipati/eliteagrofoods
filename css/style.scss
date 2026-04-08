@@ -40,6 +40,14 @@ h1, h2, h3, .navbar-brand {
     margin: 0 auto;
 }
 
+.text-secondary{
+    color: $secondary!important;
+}
+
+.text-primary {
+    color: $primary!important;
+}
+
 .max-width-700 { max-width: 700px; }
 
 /* Navigation */
@@ -112,12 +120,15 @@ h1, h2, h3, .navbar-brand {
 
 .btn-secondary-elite {
     @include button-variant($secondary, $primary);
+
+     &:hover{
+        background:white;
+    }
 }
 
 .btn-outline-light-elite {
     @include button-variant(transparent, $white);
     border: 2px solid $white;
-    &:hover { background-color: $white; color: $primary; }
 }
 
 /* Hero Section */
