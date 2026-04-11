@@ -29,8 +29,7 @@
         </div>
         <div class="swiper-pagination premium-pagination"></div>
         <div class="hero-scroll-indicator">
-            <div class="mouse"></div>
-            <span>SCROLL</span>
+            <div class="mouse"></div>           
         </div>
     </div>
 </header>
@@ -611,8 +610,8 @@
 
         .hero-premium {
             height: auto;
-            min-height: 100vh;
-            padding: 100px 0;
+            /* min-height: 100vh; */
+            padding: 100px 0 0 0;
         }
 
         .hero-container {
