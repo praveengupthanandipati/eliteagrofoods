@@ -4,7 +4,7 @@
 <section class="b2b-hero section-padding text-white">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-7" data-aos="fade-right">
+            <div class="col-lg-7" data-aos="fade-up">
                 <span class="hero-tag mb-3 bg-secondary text-primary">Powering Your Business</span>
                 <h1 class="display-3 fw-bold mb-4">Elite B2B & Bulk Supply Solutions</h1>
                 <p class="lead mb-5 opacity-90">From restaurants and catering units to residential societies and
@@ -137,7 +137,7 @@
 <section class="section-padding bg-dark text-white" id="margins">
     <div class="container">
         <div class="row align-items-center g-5">
-            <div class="col-lg-5" data-aos="fade-right">
+            <div class="col-lg-5" data-aos="fade-up">
                 <h6 class="text-uppercase text-secondary fw-bold letter-spacing-2 mb-3">Business Sustainability</h6>
                 <h2 class="display-5 fw-bold mb-4">Elite Partnership Profit & Margins</h2>
                 <p class="lead opacity-75 mb-5">We provide transparent margin structures that ensure your business
@@ -154,7 +154,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-7" data-aos="fade-left">
+            <div class="col-lg-7" data-aos="fade-up">
                 <div class="margin-table-wrapper p-4 p-md-5 rounded-4 bg-white text-dark shadow-lg">
                     <table class="table table-borderless mb-0">
                         <thead>
@@ -429,5 +429,42 @@
         </div>
     </div>
 </section>
+
+
+<style>
+    @media (max-width: 767px) {
+        .b2b-hero {
+            height: auto;
+            min-height: 50vh;
+            padding: 120px 0 60px;
+        }
+        .display-3 {
+            font-size: 2.2rem;
+        }
+        .section-title {
+            font-size: 2rem;
+        }
+        .margin-table-wrapper {
+            padding: 30px 20px !important;
+            margin-top: 30px;
+            overflow-x: auto;
+        }
+        .quote-form-card {
+            padding: 40px 20px !important;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .display-3 {
+            font-size: 1.8rem;
+        }
+        .section-title {
+            font-size: 1.6rem;
+        }
+        .display-5 {
+            font-size: 1.8rem;
+        }
+    }
+</style>
 
 <?php include 'includes/footer.php'; ?>

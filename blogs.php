@@ -5,7 +5,7 @@
     style="background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=1600'); background-size: cover; background-position: center;">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-7" data-aos="fade-right">
+            <div class="col-lg-7" data-aos="fade-up">
                 <span class="hero-tag mb-3">Expert Insights</span>
                 <h1 class="display-3 fw-bold mb-4 text-white">Our Latest Blogs</h1>
                 <p class="lead mb-0 text-white-50">Discover tips, stories, and health insights from the world of Elite
@@ -167,6 +167,19 @@
 
     .section-padding {
         padding: 80px 0;
+    }
+    @media (max-width: 767px) {
+        .about-hero {
+            padding: 120px 0 60px;
+        }
+        .display-3 {
+            font-size: 2.2rem;
+        }
+    }
+    @media (max-width: 575px) {
+        .display-3 {
+            font-size: 1.8rem;
+        }
     }
 </style>
 

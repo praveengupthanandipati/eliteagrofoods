@@ -418,6 +418,30 @@
     .shadow-2xl {
         box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
     }
+
+    @media (max-width: 767px) {
+        .contact-hero-premium {
+            padding: 140px 0 80px;
+        }
+
+        .display-2 {
+            font-size: 2.2rem;
+        }
+
+        .info-tiles-section {
+            margin-top: -30px;
+        }
+
+        .glass-card {
+            padding: 30px 20px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .display-2 {
+            font-size: 1.8rem;
+        }
+    }
 </style>
 
 <script>

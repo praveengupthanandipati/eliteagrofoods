@@ -4,10 +4,10 @@
 <section class="about-hero">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-7" data-aos="fade-right">
+            <div class="col-lg-7" data-aos="fade-up">
                 <span class="hero-tag mb-3">Our Identity</span>
                 <h1 class="display-3 fw-bold mb-4">Elite Agro Foods: Path to Purity</h1>
-                <p class="lead mb-0 text-white-50">Establishing trust through sustainable farming, ethical sourcing, and
+                <p class="lead mb-0 text-white-50 d-none d-md-block">Establishing trust through sustainable farming, ethical sourcing, and
                     a direct-to-consumer journey that redefines freshness.</p>
             </div>
         </div>
@@ -18,7 +18,7 @@
 <section class="section-padding overflow-hidden">
     <div class="container">
         <div class="row align-items-center g-5">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="about-image-stack">
                     <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&q=80&w=800"
                         alt="Sustainable Farm" class="img-fluid rounded-4 shadow-lg main-img">
@@ -26,7 +26,7 @@
                         alt="Quality Selection" class="img-fluid rounded-4 shadow overlay-img">
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <h6 class="text-uppercase text-primary fw-bold letter-spacing-2 mb-3">The Elite Story</h6>
                 <h2 class="section-title mb-4">About Elite Agro Foods </h2>
                 <div class="about-text-content">
@@ -151,5 +151,37 @@
         </div>
     </div>
 </section>
+
+
+<style>
+    @media (max-width: 767px) {
+        .about-hero {
+            height: auto;
+            min-height: 30vh;
+            padding: 120px 0 12px
+        }
+        .display-3 {
+            font-size: 2.2rem;
+        }
+        .about-image-stack {
+            padding: 15px;
+            margin-bottom: 30px;
+        }
+        .about-image-stack .overlay-img {
+            width: 150px;
+        }
+        .structure-card {
+            padding: 30px 20px;
+        }
+    }
+    @media (max-width: 575px) {
+        .display-3 {
+            font-size: 1.8rem;
+        }
+        .section-title {
+            font-size: 1.8rem;
+        }
+    }
+</style>
 
 <?php include 'includes/footer.php'; ?>

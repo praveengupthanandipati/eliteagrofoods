@@ -62,13 +62,13 @@ h1, h2, h3, .navbar-brand {
 
 /* Navigation */
 .navbar {
-  padding: 20px 0;
+  padding: 12px 0;
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   background-color: transparent;
 }
 .navbar.navbar-scrolled {
   background-color: #ffffff;
-  padding: 12px 0;
+  padding: 3px 0;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 .navbar.navbar-scrolled .nav-link {
@@ -84,7 +84,7 @@ h1, h2, h3, .navbar-brand {
   .navbar {
     background-color: #ffffff !important;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    padding: 12px 0;
+    padding: 6px 0;
   }
   .navbar .nav-link {
     color: #03652e !important;

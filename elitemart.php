@@ -2,9 +2,17 @@
 
 <style>
     /* Delivery Section Modern Styles */
+    html,
+    body {
+        overflow-x: hidden !important;
+        width: 100%;
+        position: relative;
+    }
+
     #delivery {
         position: relative;
         background: linear-gradient(135deg, #02431f 0%, #03652e 100%) !important;
+        overflow-x: hidden;
     }
 
     /* .delivery-mesh-bg {
@@ -73,7 +81,7 @@
         width: 65px;
         height: 65px;
         border-radius: 18px;
-        @include flex-center;
+        /* @include flex-center; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -113,6 +121,72 @@
     .shadow-glow-danger {
         box-shadow: 0 10px 20px rgba(239, 68, 68, 0.3);
     }
+
+    @media (max-width: 767px) {
+        .mart-hero {
+            height: auto;
+            min-height: 60vh;
+            padding: 120px 0 60px;
+        }
+
+        .display-3 {
+            font-size: 2.2rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+        }
+
+        .category-card {
+            height: 280px;
+        }
+
+        .service-vignette {
+            margin-top: 30px;
+            padding: 30px !important;
+        }
+
+        .delivery-status-box {
+            margin-bottom: 30px;
+        }
+
+        .section-padding {
+            padding: 60px 0;
+            overflow-x: hidden;
+        }
+
+        .container {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .row {
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+
+        .col-12,
+        .col-md-6,
+        .col-lg-4,
+        .col-lg-3 {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .display-3 {
+            font-size: 1.8rem;
+        }
+
+        .section-title {
+            font-size: 1.6rem;
+        }
+
+        .mart-hero {
+            padding: 100px 0 40px;
+        }
+    }
 </style>
 
 <!-- Elite Mart Hero -->
@@ -120,11 +194,12 @@
     <div class="container text-center">
         <div class="row justify-content-center">
             <div class="col-lg-10" data-aos="zoom-in">
-                <span class="hero-tag mb-3">Welcome to the Future of Grocery</span>
+                <span class="hero-tag mb-3 d-none d-md-block">Welcome to the Future of Grocery</span>
                 <h1 class="display-3 fw-bold mb-4">Your One-Stop Online Grocery Destination</h1>
-                <p class="lead mb-5 opacity-90 mx-auto max-width-700">Sourced from Elite Agro Foods and trusted
+                <p class="lead mb-5 opacity-90 mx-auto max-width-700 d-none d-md-block">Sourced from Elite Agro Foods
+                    and trusted
                     producers. Premium groceries, hygienically packed, delivered fast to your doorstep.</p>
-                <div class="mart-hero-btns">
+                <div class="mart-hero-btns d-none d-md-block">
                     <a href="#categories" class="btn btn-secondary-elite btn-lg me-sm-3 mb-3">Browse Categories</a>
                     <a href="#delivery" class="btn btn-outline-light-elite btn-lg mb-3">Delivery Info</a>
                 </div>
@@ -295,7 +370,7 @@
 <section class="section-padding">
     <div class="container">
         <div class="row g-5 align-items-center">
-            <div class="col-lg-6" data-aos="fade-right">
+            <div class="col-lg-6" data-aos="fade-up">
                 <h6 class="text-uppercase text-primary fw-bold letter-spacing-2 mb-3">Premium Services</h6>
                 <h2 class="section-title mb-4">Beyond Just Groceries</h2>
                 <div class="service-item-detailed mb-4">
@@ -303,7 +378,8 @@
                         <div class="icon-sq me-3"><i class="fas fa-boxes-packing"></i></div>
                         <h4 class="mb-0">Custom Packaging</h4>
                     </div>
-                    <p class="text-muted ps-5">Tailored packaging solutions for businesses, event needs, and specific
+                    <p class="text-muted ps-4 ps-md-5">Tailored packaging solutions for businesses, event needs, and
+                        specific
                         household storage requirements.</p>
                 </div>
                 <div class="service-item-detailed">
@@ -311,11 +387,12 @@
                         <div class="icon-sq me-3"><i class="fas fa-people-roof"></i></div>
                         <h4 class="mb-0">Family Packs</h4>
                     </div>
-                    <p class="text-muted ps-5">Generous-sized packages of premium groceries to keep your pantry fully
+                    <p class="text-muted ps-4 ps-md-5">Generous-sized packages of premium groceries to keep your pantry
+                        fully
                         stocked while offering better value for money.</p>
                 </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-left">
+            <div class="col-lg-6" data-aos="fade-up">
                 <div class="service-vignette p-5 rounded-4 bg-primary text-white">
                     <h3 class="mb-4">Special Offer!</h3>
                     <ul class="list-unstyled mb-4">
@@ -345,14 +422,14 @@
     <div class="delivery-mesh-bg"></div>
     <div class="container relative-z">
         <div class="row align-items-center mb-5 pb-4">
-            <div class="col-lg-7 text-center text-lg-start" data-aos="fade-right">
+            <div class="col-lg-7 text-center text-lg-start" data-aos="fade-up">
                 <h6 class="text-uppercase text-secondary-elite fw-bold letter-spacing-2 mb-3">Elite Logistics</h6>
                 <h2 class="display-5 fw-bold mb-3">Fast & Reliable <span class="text-secondary-elite">Delivery</span>
                 </h2>
                 <p class="lead mb-0 opacity-75">Our efficient logistics network ensures your groceries arrive promptly,
                     fresh, and in perfect condition across your neighborhood.</p>
             </div>
-            <div class="col-lg-5 text-center text-lg-end mt-4 mt-lg-0" data-aos="fade-left">
+            <div class="col-lg-5 text-center text-lg-end mt-4 mt-lg-0" data-aos="fade-up">
                 <div class="delivery-status-box glass-card p-4 rounded-5">
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-end mb-2">
                         <span class="status-dot pulse-secondary me-3"></span>

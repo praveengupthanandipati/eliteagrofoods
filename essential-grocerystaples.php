@@ -5,7 +5,7 @@
     style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img/hero05.jpg');">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-8" data-aos="fade-right">
+            <div class="col-lg-8" data-aos="fade-up">
                 <span class="hero-tag mb-3">Kitchen Essentials</span>
                 <h1 class="display-3 fw-bold mb-4">Essential Grocery Staples for Every Modern Kitchen</h1>
                 <div class="article-meta mt-4">
@@ -169,6 +169,19 @@
         padding-bottom: 10rem;
         background-size: cover;
         background-position: center;
+    }
+
+    @media (max-width: 767px) {
+        .blog-hero {
+            padding-top: 10rem;
+            padding-bottom: 5rem;
+        }
+        .display-4 {
+            font-size: 2rem;
+        }
+        .section-title {
+            font-size: 1.8rem;
+        }
     }
 
     .article-content {

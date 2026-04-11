@@ -5,59 +5,27 @@
 <header class="hero-premium">
     <div class="swiper heroSwiper">
         <div class="swiper-wrapper">
-            <!-- Slide 1: Offline Grocery Store -->
-            <div class="swiper-slide">
-                <div class="hero-bg-overlay" style="background-image: url('img/hero-offline.png')"></div>
-                <div class="container hero-container">
-                    <div class="hero-text-content" data-aos="fade-right">
-                        <span class="badge rounded-pill bg-secondary-elite text-primary-dark px-3 py-2 mb-3">ELITE MART:
-                            OFFLINE STORE</span>
-                        <h1 class="display-2 fw-extrabold mb-4">Quality and Freshness <br><span
-                                class="text-gradient-green">In Every Aisles</span></h1>
-                        <p class="lead mb-5 opacity-85">Walk into our premium physical outlets to hand-pick the freshest
-                            produce and explore a world of quality staples.</p>
-                        <div class="d-flex gap-3">
-                            <a href="https://elitemart.co.in" target="_blank"
-                                class="btn btn-primary-elite btn-xl">Locate Our Store</a>
+            <?php foreach ($hero_banners as $i => $banner): ?>
+                <div class="swiper-slide">
+                    <div class="hero-bg-overlay" style="background-image: url('<?php echo $banner['image']; ?>')"></div>
+                    <div class="container hero-container">
+                        <div class="hero-text-content" <?php if ($i === 0) echo 'data-aos="fade-up"'; ?>>
+                            <span class="badge rounded-pill bg-secondary-elite text-primary-dark px-3 py-2 mb-3"><?php echo $banner['badge']; ?></span>
+                            <?php if ($i === 0): ?>
+                                <h1 class="display-2 fw-extrabold mb-4"><?php echo $banner['title']; ?></h1>
+                            <?php else: ?>
+                                <h2 class="display-2 fw-extrabold mb-4"><?php echo $banner['title']; ?></h2>
+                            <?php endif; ?>
+                            <p class="lead mb-5 opacity-85"><?php echo $banner['subtitle']; ?></p>
+                            <div class="d-flex gap-3">
+                                <a href="<?php echo $banner['button_link']; ?>"<?php if (!empty($banner['button_target'])) echo ' target="' . $banner['button_target'] . '"'; ?> class="btn btn-primary-elite btn-xl"><?php echo $banner['button_text']; ?></a>
+                            </div>
+                            <!-- Optional: Show date for reference (hidden visually) -->
+                            <span style="display:none;">Banner Date: <?php echo $banner['date']; ?></span>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Slide 2: Online Grocery Home Delivery -->
-            <div class="swiper-slide">
-                <div class="hero-bg-overlay" style="background-image: url('img/online-grocery.png')"></div>
-                <div class="container hero-container">
-                    <div class="hero-text-content">
-                        <span class="badge rounded-pill bg-secondary-elite text-primary-dark px-3 py-2 mb-3">ELITE MART:
-                            ONLINE DELIVERY</span>
-                        <h2 class="display-2 fw-extrabold mb-4">Fast Home Delivery <br><span
-                                class="text-gradient-green">At Your Fingertips</span></h2>
-                        <p class="lead mb-5 opacity-85">Shop from the comfort of your home. Premium groceries delivered
-                            hygienically to your doorstep.</p>
-                        <div class="d-flex gap-3">
-                            <a href="https://elitemart.co.in" target="_blank" class="btn btn-primary-elite btn-xl">Shop
-                                Online Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Slide 3: Elite Farm Fresh Milk -->
-            <div class="swiper-slide">
-                <div class="hero-bg-overlay" style="background-image: url('img/farm-milk.png')"></div>
-                <div class="container hero-container">
-                    <div class="hero-text-content">
-                        <span class="badge rounded-pill bg-secondary-elite text-primary-dark px-3 py-2 mb-3">ELITE FARM
-                            FRESH MILK</span>
-                        <h2 class="display-2 fw-extrabold mb-4">Pure, Unadulterated <br><span
-                                class="text-gradient-green">Farm Milk Daily</span></h2>
-                        <p class="lead mb-5 opacity-85">Start your morning with the richness of fresh buffalo milk,
-                            sourced daily and delivered in hygienic packaging.</p>
-                        <div class="d-flex gap-3">
-                            <a href="farmmilk.php" class="btn btn-primary-elite btn-xl">Subscribe Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
         <div class="swiper-pagination premium-pagination"></div>
         <div class="hero-scroll-indicator">
@@ -186,7 +154,7 @@
             <!-- Service 3: Elite Farm Fresh Milk -->
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="premium-service-card shadow-lg">
-                    <div class="psc-image" style="background-image: url('img/farm-milk.png')">
+                    <div class="psc-image" style="background-image: url('img/farm-milk.jpg')">
                         <div class="psc-badge">PREMIUM MILK</div>
                     </div>
                     <div class="psc-body">
@@ -614,6 +582,14 @@
             min-height: 350px !important;
             padding: 25px;
         }
+
+        .hero-text-content {
+            padding: 0 15px;
+        }
+
+        .display-2 {
+            font-size: 3rem;
+        }
     }
 
     @media (max-width: 767px) {
@@ -626,13 +602,58 @@
         }
 
         .display-4 {
+            font-size: 2.2rem;
+        }
+
+        .display-2 {
             font-size: 2.5rem;
+        }
+
+        .hero-premium {
+            height: auto;
+            min-height: 100vh;
+            padding: 100px 0;
+        }
+
+        .hero-container {
+            height: auto;
+            padding: 40px 0;
+        }
+
+        .btn-xl {
+            padding: 14px 30px;
+            font-size: 1rem;
+        }
+
+        .premium-cta {
+            padding: 100px 0;
+        }
+
+        .display-3 {
+            font-size: 2rem;
         }
     }
 
     @media (max-width: 575px) {
         .display-2 {
             font-size: 2.2rem;
+        }
+
+        .display-4 {
+            font-size: 1.8rem;
+        }
+
+        .hero-text-content {
+            text-align: center;
+        }
+
+        .hero-text-content .badge {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-text-content .d-flex {
+            justify-content: center;
         }
     }
 </style>

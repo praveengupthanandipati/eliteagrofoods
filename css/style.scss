@@ -52,12 +52,12 @@ h1, h2, h3, .navbar-brand {
 
 /* Navigation */
 .navbar {
-    padding: 20px 0;
+    padding: 12px 0;
     transition: $transition-smooth;
     background-color: transparent;
     &.navbar-scrolled {
         background-color: $white;
-        padding: 12px 0;
+        padding: 3px 0;
         box-shadow: 0 5px 20px rgba(0,0,0,0.1);
         .nav-link { color: $primary !important; }
         .brand-text { color: $primary; }
@@ -67,7 +67,7 @@ h1, h2, h3, .navbar-brand {
     @media (max-width: 991.98px) {
         background-color: $white !important;
         box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-        padding: 12px 0;
+        padding: 6px 0;
         .nav-link { 
             color: $primary !important; 
             padding: 10px 0;
