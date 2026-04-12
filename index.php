@@ -18,7 +18,7 @@
                             <?php endif; ?>
                             <p class="lead mb-5 opacity-85"><?php echo $banner['subtitle']; ?></p>
                             <div class="d-flex gap-3">
-                                <a href="<?php echo $banner['button_link']; ?>"<?php if (!empty($banner['button_target'])) echo ' target="' . $banner['button_target'] . '"'; ?> class="btn btn-primary-elite btn-xl"><?php echo $banner['button_text']; ?></a>
+                                <a href="<?php echo $banner['button_link']; ?>"<?php if (!empty($banner['button_target'])) echo ' target="' . $banner['button_target'] . '"'; ?> class="btn btn-primary-elite btn-xl d-none"><?php echo $banner['button_text']; ?></a>
                             </div>
                             <!-- Optional: Show date for reference (hidden visually) -->
                             <span style="display:none;">Banner Date: <?php echo $banner['date']; ?></span>
@@ -128,7 +128,7 @@
                         <h3>Elite Mart: Offline Store</h3>
                         <p>Walk into our premium physical outlets to hand-pick the freshest produce and explore a world
                             of quality staples.</p>
-                        <a href="https://elitemart.co.in" target="_blank" class="psc-link">Visit Our Store <i
+                        <a href="elitemart.php" target="_blank" class="psc-link">Visit Our Store <i
                                 class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                         <h3>Elite Mart: Online Shop</h3>
                         <p>Enjoy the speed and ease of shopping from home. Freshness delivered within hours to your
                             doorstep.</p>
-                        <a href="https://elitemart.co.in" target="_blank" class="psc-link">Shop Online <i
+                        <a href="elitemart.php" target="_blank" class="psc-link">Shop Online <i
                                 class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -177,70 +177,10 @@
                 <h6 class="text-uppercase text-primary fw-bold letter-spacing-2 mb-2">EXPERT INSIGHTS</h6>
                 <h2 class="display-4 fw-bold">Latest from <span class="text-primary">Blog</span></h2>
             </div>
-            <a href="#" class="btn btn-outline-primary rounded-pill px-4 d-none d-md-inline-block">View All Posts</a>
+            <a href="blogs.php" class="btn btn-secondary-elite rounded-pill px-4 d-none d-md-inline-block">View All Posts</a>
         </div>
 
-        <div class="row g-4">
-            <!-- Blog 1 -->
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="modern-blog-card">
-                    <div class="mbc-media"
-                        style="background-image: url('https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=600')">
-                        <div class="mbc-date">28 MAR</div>
-                    </div>
-                    <div class="mbc-content">
-                        <h4><a href="benefitsof-fresh-buffalomilk.php">The Benefits of Fresh Buffalo Milk</a></h4>
-                        <p>Discover why pure buffalo milk is the ultimate choice for health...</p>
-                        <a href="benefitsof-fresh-buffalomilk.php" class="mbc-more">Read Entry <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!-- Blog 2 -->
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="modern-blog-card">
-                    <div class="mbc-media"
-                        style="background-image: url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&q=80&w=600')">
-                        <div class="mbc-date">25 MAR</div>
-                    </div>
-                    <div class="mbc-content">
-                        <h4><a href="fromfarmtotable.php">Farm to Table: Our Quality Journey</a></h4>
-                        <p>Take a behind-the-scenes look at how we source the freshest...</p>
-                        <a href="fromfarmtotable.php" class="mbc-more">Read Entry <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!-- Blog 3 -->
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="modern-blog-card">
-                    <div class="mbc-media"
-                        style="background-image: url('https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=600')">
-                        <div class="mbc-date">22 MAR</div>
-                    </div>
-                    <div class="mbc-content">
-                        <h4><a href="essential-grocerystaples.php">Essential Grocery Staples</a></h4>
-                        <p>Stock your pantry like a pro with these essential items...</p>
-                        <a href="essential-grocerystaples.php" class="mbc-more">Read Entry <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!-- Blog 4 -->
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="modern-blog-card">
-                    <div class="mbc-media"
-                        style="background-image: url('https://images.unsplash.com/photo-1516594798947-e65505dbb29d?auto=format&fit=crop&q=80&w=600')">
-                        <div class="mbc-date">20 MAR</div>
-                    </div>
-                    <div class="mbc-content">
-                        <h4><a href="whyorganicproduce.php">Why Organic Produce is Worth It</a></h4>
-                        <p>Explore the long-term benefits of switching to organic...</p>
-                        <a href="whyorganicproduce.php" class="mbc-more">Read Entry <i
-                                class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+       <?php include 'includes/blogs-section.php'; ?>
     </div>
 </section>
 

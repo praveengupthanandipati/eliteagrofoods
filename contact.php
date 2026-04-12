@@ -30,7 +30,7 @@
                     <h4>Elite Mart Support</h4>
                     <p>Issues with your grocery order or product inquiries?</p>
                     <div class="divider"></div>
-                    <a href="mailto:support@eliteagrofoods.com" class="contact-link">support@eliteagrofoods.com</a>
+                    <a href="mailto:eliteagrofoods2024@gmail.com" class="contact-link">eliteagrofoods2024@gmail.com</a>
                     <a href="tel:+917799771189" class="contact-link">+91 77997 71189</a>
                 </div>
             </div>
@@ -43,8 +43,8 @@
                     <h4>Farm Milk Desk</h4>
                     <p>Manage your daily buffalo milk subscription or pause deliveries.</p>
                     <div class="divider"></div>
-                    <a href="mailto:milk@eliteagrofoods.com" class="contact-link">milk@eliteagrofoods.com</a>
-                    <a href="tel:+7799771189" class="contact-link">+91 77997 71189</a>
+                    <a href="mailto:eliteagrofoods2024@gmail.com" class="contact-link">eliteagrofoods2024@gmail.com</a>
+                    <a href="tel:+917799771189" class="contact-link">+91 77997 71189</a>
                 </div>
             </div>
             <!-- 3. General Inquiries -->
@@ -56,7 +56,7 @@
                     <h4>General Help</h4>
                     <p>For all other questions, feedback, or general support.</p>
                     <div class="divider"></div>
-                    <a href="mailto:info@eliteagrofoods.com" class="contact-link">info@eliteagrofoods.com</a>
+                    <a href="mailto:eliteagrofoods2024@gmail.com" class="contact-link">eliteagrofoods2024@gmail.com</a>
                     <a href="https://wa.me/917799771189" target="_blank" class="contact-link whatsapp-link"><i
                             class="fab fa-whatsapp me-2"></i>Live WhatsApp Chat</a>
                 </div>
@@ -214,7 +214,7 @@
 
     .text-gradient {
         background: linear-gradient(135deg, #dbee35 0%, #05a049 100%);
-        -webkit-background-clip: text;
+        /* -webkit-background-clip: text; */
         -webkit-text-fill-color: transparent;
     }
 
