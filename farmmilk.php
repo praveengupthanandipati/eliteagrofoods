@@ -164,7 +164,7 @@
                         satisfied families and start your daily delivery subscription today.</p>
                     <div class="cta-buttons">
                         <a href="https://wa.me/+917799771189" target="_blank"
-                            class="btn btn-primary-elite btn-xl me-sm-3 mb-3">
+                            class="btn btn-secondary-elite btn-xl me-sm-3 mb-3">
                             <i class="fab fa-whatsapp me-2"></i>Subscribe Now
                         </a>
                         <a href="contact.php" class="btn btn-outline-primary-elite btn-xl mb-3">Contact Us for

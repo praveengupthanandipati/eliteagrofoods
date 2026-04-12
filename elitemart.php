@@ -195,14 +195,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-10" data-aos="zoom-in">
                 <span class="hero-tag mb-3 d-none d-md-block">Welcome to the Future of Grocery</span>
-                <h1 class="display-3 fw-bold mb-4">Your One-Stop Online Grocery Destination</h1>
-                <p class="lead mb-5 opacity-90 mx-auto max-width-700 d-none d-md-block">Sourced from Elite Agro Foods
-                    and trusted
-                    producers. Premium groceries, hygienically packed, delivered fast to your doorstep.</p>
-                <div class="mart-hero-btns d-none d-md-block">
-                    <a href="#categories" class="btn btn-secondary-elite btn-lg me-sm-3 mb-3">Browse Categories</a>
-                    <a href="#delivery" class="btn btn-outline-light-elite btn-lg mb-3">Delivery Info</a>
-                </div>
+                <h1 class="display-3 fw-bold mb-4">Your One-Stop Online Grocery Destination</h1>     
             </div>
         </div>
     </div>
@@ -409,8 +402,7 @@
                             <span class="fs-5">Premium Packing Guaranteed</span>
                         </li>
                     </ul>
-                    <a href="https://elitemart.co.in/" target="_blank" class="btn btn-secondary-elite btn-lg">Order
-                        Now</a>
+                    <a href="https://elitemart.co.in/" target="_blank" class="btn btn-secondary-elite btn-lg">Download App Now</a>
                 </div>
             </div>
         </div>
@@ -428,17 +420,7 @@
                 </h2>
                 <p class="lead mb-0 opacity-75">Our efficient logistics network ensures your groceries arrive promptly,
                     fresh, and in perfect condition across your neighborhood.</p>
-            </div>
-            <div class="col-lg-5 text-center text-lg-end mt-4 mt-lg-0" data-aos="fade-up">
-                <div class="delivery-status-box glass-card p-4 rounded-5">
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-end mb-2">
-                        <span class="status-dot pulse-secondary me-3"></span>
-                        <h4 class="mb-0 fw-bold">Active in Your Area</h4>
-                    </div>
-                    <p class="small mb-0 opacity-75">Average delivery time: <strong class="text-secondary-elite">45
-                            Mins</strong></p>
-                </div>
-            </div>
+            </div>          
         </div>
 
         <div class="row g-4">
@@ -812,7 +794,7 @@
         <h2 class="display-4 fw-bold mb-4">Start Filling Your Cart</h2>
         <p class="lead mb-5 max-width-700 mx-auto opacity-75">Experience the best quality groceries delivered with care.
             Your kitchen deserves nothing but Elite goodness.</p>
-        <a href="#" class="btn btn-secondary-elite btn-xl">Shop Now at Elite Mart</a>
+        <a href="#" class="btn btn-secondary-elite btn-xl">Download App Now</a>
     </div>
 </section>
 

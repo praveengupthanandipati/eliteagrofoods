@@ -6,9 +6,7 @@
         <div class="row align-items-center">
             <div class="col-lg-7" data-aos="fade-up">
                 <span class="hero-tag mb-3">Our Identity</span>
-                <h1 class="display-3 fw-bold mb-4">Elite Agro Foods: Path to Purity</h1>
-                <p class="lead mb-0 text-white-50 d-none d-md-block">Establishing trust through sustainable farming, ethical sourcing, and
-                    a direct-to-consumer journey that redefines freshness.</p>
+                <h1 class="display-3 fw-bold mb-4">Elite Agro Foods: Path to Purity</h1>               
             </div>
         </div>
     </div>

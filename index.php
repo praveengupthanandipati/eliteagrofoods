@@ -555,7 +555,7 @@
     /* Final CTA Premium */
     .premium-cta {
         background: linear-gradient(135deg, #02431f 0%, #03652e 40%, #c4d72d 100%);
-        padding: 180px 0;
+        padding: 100px 0;
         position: relative;
         overflow: hidden;
     }
@@ -625,7 +625,7 @@
         }
 
         .premium-cta {
-            padding: 100px 0;
+            padding: 60px 0;
         }
 
         .display-3 {

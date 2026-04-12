@@ -25,6 +25,26 @@
 
 <body id="top">
 
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader-inner">
+                <img src="img/logo.svg" alt="Elite Agro Foods Loader" class="loader-logo">
+                <div class="loader-circle"></div>
+            </div>
+        </div>
+    </div>
+    <style>
+        body.preloader-active {
+            overflow: hidden !important;
+            height: 100vh !important;
+        }
+    </style>
+    <script>
+        // Immediately lock scrolling while preloader is active
+        document.body.classList.add('preloader-active');
+    </script>
+
     <!-- Header / Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">

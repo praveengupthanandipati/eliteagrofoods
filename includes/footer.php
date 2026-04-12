@@ -50,11 +50,11 @@
     <div class="container footer-top">
         <div class="row pt-5 pb-4">
             <!-- 1. Introduction -->
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-2">
                 <div class="footer-about">
                     <h3 class="footer-logo mb-4">ELITE<span>AGRO FOODS</span></h3>
                     <p class="mb-4">Bringing the honest purity of the farm straight to the ease of your table—since 2024. Your trusted companion for fresh, organic, everyday essentials.</p>
-                    <div class="social-links">
+                    <div class="social-links d-none">
                         <a href="#" class="facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                         <a href="#" class="whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -63,7 +63,7 @@
             </div>
 
             <!-- 2. Quick Links -->
-            <div class="col-lg-3 col-md-6 mb-5 ps-lg-5">
+            <div class="col-lg-3 col-md-6 mb-2 ps-lg-5">
                 <h4 class="footer-title">Quick Links</h4>
                 <ul class="list-unstyled footer-links">
                     <li><a href="https://eliteagrofoods.com/">Home</a></li>
@@ -75,7 +75,7 @@
             </div>
           
             <!-- 4. Contact Details -->
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-3 col-md-6 mb-2">
                 <h4 class="footer-title">Get In Touch</h4>
                 <div class="contact-card">
                     <div class="contact-item mb-3">
@@ -126,6 +126,33 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+    // Preloader Removal
+    window.addEventListener('load', function() {
+        const preloader = document.getElementById('preloader');
+        if (preloader) {
+            setTimeout(() => {
+                preloader.classList.add('loaded');
+                // Allow a bit more time for the fade animation to complete
+                setTimeout(() => {
+                    preloader.style.display = 'none';
+                    document.body.classList.remove('preloader-active'); // Correctly re-enable scrolling
+                }, 800);
+            }, 600); // 600ms feel slightly more premium than 500ms
+        }
+    });
+
+    // Fallback if load event takes too long
+    setTimeout(() => {
+        const preloader = document.getElementById('preloader');
+        if (preloader && !preloader.classList.contains('loaded')) {
+            preloader.classList.add('loaded');
+            setTimeout(() => {
+                preloader.style.display = 'none';
+                document.body.classList.remove('preloader-active');
+            }, 800);
+        }
+    }, 4500); // 4.5 second robust fallback
+
     // Initialize Swiper
     const swiper = new Swiper('.heroSwiper', {
         loop: true,
