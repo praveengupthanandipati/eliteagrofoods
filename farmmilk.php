@@ -18,8 +18,7 @@
         <div class="row align-items-center g-5">
             <div class="col-lg-6" data-aos="fade-up">
                 <div class="quality-image-wrapper position-relative">
-                    <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&q=80&w=800"
-                        alt="Buffalo Farm" class="img-fluid rounded-4 shadow-lg">
+                    <img src="img/farmmilk01.jpg" alt="Buffalo Farm" class="img-fluid rounded-4 shadow-lg">
                     <div class="quality-badge-overlay p-4 bg-white rounded-3 shadow text-center">
                         <h4 class="mb-0 fw-bold text-primary">Tradition</h4>
                         <p class="small text-muted mb-0">Meets Hygiene</p>
@@ -108,7 +107,131 @@
     </div>
 </section>
 
-<!-- Section 4: Our Service -->
+<!-- Section 4: Advantages of Fresh Milk for Children -->
+<section class="section-padding">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h6 class="text-uppercase text-primary fw-bold letter-spacing-2">For Your Little Ones</h6>
+            <h2 class="section-title">Advantages of Fresh Milk for Children</h2>
+            <div class="title-underline"></div>
+            <p class="text-muted mt-3 col-lg-7 mx-auto">Pure Buffalo milk is nature's complete food for growing children — packed with essential nutrients that support every stage of development.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="children-benefit-card p-4 rounded-4 shadow-sm bg-white h-100">
+                    <div class="cb-icon mb-3"><i class="fas fa-bone text-primary fs-3"></i></div>
+                    <h5 class="fw-bold mb-2">Stronger Bones & Teeth</h5>
+                    <p class="text-muted small mb-0">Rich in calcium and phosphorus, fresh buffalo milk builds dense, strong bones and healthy teeth during critical growth years.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="children-benefit-card p-4 rounded-4 shadow-sm bg-white h-100">
+                    <div class="cb-icon mb-3"><i class="fas fa-brain text-primary fs-3"></i></div>
+                    <h5 class="fw-bold mb-2">Brain Development</h5>
+                    <p class="text-muted small mb-0">Natural fats and vitamins like B12 and D in fresh milk support healthy brain development and sharper cognitive function in kids.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="children-benefit-card p-4 rounded-4 shadow-sm bg-white h-100">
+                    <div class="cb-icon mb-3"><i class="fas fa-shield-heart text-primary fs-3"></i></div>
+                    <h5 class="fw-bold mb-2">Stronger Immunity</h5>
+                    <p class="text-muted small mb-0">Fresh milk contains natural antibodies and vitamins A & C that help build a robust immune system, keeping children healthier.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="children-benefit-card p-4 rounded-4 shadow-sm bg-white h-100">
+                    <div class="cb-icon mb-3"><i class="fas fa-dumbbell text-primary fs-3"></i></div>
+                    <h5 class="fw-bold mb-2">Muscle Growth & Energy</h5>
+                    <p class="text-muted small mb-0">High-quality protein in buffalo milk fuels muscle growth and provides sustained energy for active, playful children throughout the day.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="children-benefit-card p-4 rounded-4 shadow-sm bg-white h-100">
+                    <div class="cb-icon mb-3"><i class="fas fa-eye text-primary fs-3"></i></div>
+                    <h5 class="fw-bold mb-2">Better Eyesight</h5>
+                    <p class="text-muted small mb-0">Vitamin A found abundantly in fresh milk promotes healthy vision and protects children's eyes, supporting their overall visual development.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="children-benefit-card p-4 rounded-4 shadow-sm bg-white h-100">
+                    <div class="cb-icon mb-3"><i class="fas fa-heart-pulse text-primary fs-3"></i></div>
+                    <h5 class="fw-bold mb-2">Overall Growth & Vitality</h5>
+                    <p class="text-muted small mb-0">A daily glass of fresh buffalo milk provides a complete nutritional profile — proteins, fats, minerals — essential for healthy overall growth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 5: Healthy Food Supplement for Farm Buffaloes -->
+<section class="section-padding bg-light">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h6 class="text-uppercase text-primary fw-bold letter-spacing-2">From Farm to Family</h6>
+            <h2 class="section-title">Healthy Food Supplements for Our Farm Buffaloes</h2>
+            <div class="title-underline"></div>
+            <p class="text-muted mt-3 col-lg-7 mx-auto">The quality of milk begins with how well our buffaloes are nourished. We follow a carefully planned nutrition program to keep every animal healthy and productive.</p>
+        </div>
+        <div class="row g-4 align-items-stretch">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="buffalo-feed-card p-4 rounded-4 shadow-sm bg-white h-100 d-flex align-items-start">
+                    <div class="bf-icon me-4 flex-shrink-0"><i class="fas fa-leaf text-success fs-2"></i></div>
+                    <div>
+                        <h5 class="fw-bold mb-2">Green Fodder & Fresh Grass</h5>
+                        <p class="text-muted small mb-0">Our buffaloes are fed fresh, seasonal green fodder — including maize, sorghum, and natural grasses — rich in fibre and natural nutrients that directly improve milk quality and yield.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="buffalo-feed-card p-4 rounded-4 shadow-sm bg-white h-100 d-flex align-items-start">
+                    <div class="bf-icon me-4 flex-shrink-0"><i class="fas fa-wheat-awn text-success fs-2"></i></div>
+                    <div>
+                        <h5 class="fw-bold mb-2">Dry Fodder & Crop Residues</h5>
+                        <p class="text-muted small mb-0">Balanced dry fodder such as paddy straw and wheat straw provides essential roughage, supporting healthy digestion and maintaining steady milk fat content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="buffalo-feed-card p-4 rounded-4 shadow-sm bg-white h-100 d-flex align-items-start">
+                    <div class="bf-icon me-4 flex-shrink-0"><i class="fas fa-jar text-success fs-2"></i></div>
+                    <div>
+                        <h5 class="fw-bold mb-2">Mineral & Vitamin Supplements</h5>
+                        <p class="text-muted small mb-0">We supplement daily feed with mineral mixtures and vitamins — calcium, phosphorus, and trace minerals — to keep our buffaloes strong, fertile, and producing consistently rich milk.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="buffalo-feed-card p-4 rounded-4 shadow-sm bg-white h-100 d-flex align-items-start">
+                    <div class="bf-icon me-4 flex-shrink-0"><i class="fas fa-seedling text-success fs-2"></i></div>
+                    <div>
+                        <h5 class="fw-bold mb-2">Protein-Rich Concentrate Feed</h5>
+                        <p class="text-muted small mb-0">A custom concentrate mix of oil cakes (groundnut, cottonseed), grains, and pulses provides high protein — boosting milk production and keeping buffaloes in peak health condition.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="buffalo-feed-card p-4 rounded-4 shadow-sm bg-white h-100 d-flex align-items-start">
+                    <div class="bf-icon me-4 flex-shrink-0"><i class="fas fa-droplet text-success fs-2"></i></div>
+                    <div>
+                        <h5 class="fw-bold mb-2">Clean Water & Hydration</h5>
+                        <p class="text-muted small mb-0">Adequate clean water supply is essential — our buffaloes have unrestricted access to fresh water throughout the day, which directly affects milk volume and quality.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="buffalo-feed-card p-4 rounded-4 shadow-sm bg-white h-100 d-flex align-items-start">
+                    <div class="bf-icon me-4 flex-shrink-0"><i class="fas fa-stethoscope text-success fs-2"></i></div>
+                    <div>
+                        <h5 class="fw-bold mb-2">Veterinary Care & Health Monitoring</h5>
+                        <p class="text-muted small mb-0">Regular veterinary check-ups, vaccinations, and deworming keep our herd disease-free — because healthy buffaloes produce purer, more nutritious milk for your family.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 6: Our Service -->
 <section class="section-padding">
     <div class="container">
         <div class="row g-5 align-items-center">
@@ -121,7 +244,7 @@
                     <div class="col-sm-6 mb-4">
                         <div class="plan-mini p-4 rounded-3 border-start border-5 border-primary shadow-sm bg-white">
                             <h5 class="fw-bold mb-2">Subscription Options</h5>
-                            <p class="small text-muted mb-0">Daily, Weekly, or Monthly subscriptions tailored to your
+                            <p class="small text-muted mb-0">Monthly subscriptions tailored to your
                                 family's needs.</p>
                         </div>
                     </div>
@@ -138,7 +261,7 @@
                 <div class="delivery-time-card p-5 bg-primary text-white rounded-4 shadow-lg text-center">
                     <div class="time-ring mb-4 mx-auto">
                         <i class="fas fa-clock fs-1 mb-2"></i>
-                        <h4 class="mb-0 fw-bold">Before 7:00 AM</h4>
+                        <h4 class="mb-0 fw-bold">Before 8:00 AM</h4>
                     </div>
                     <h3>Start Your Day Right</h3>
                     <p class="mb-4 text-white-50">You can count on us to have your milk delivered early, ready for your
@@ -182,6 +305,35 @@
         overflow-x: hidden !important;
         width: 100%;
         position: relative;
+    }
+
+    .children-benefit-card {
+        border-top: 4px solid var(--primary-color, #2e7d32);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .children-benefit-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .cb-icon i {
+        opacity: 0.85;
+    }
+
+    .buffalo-feed-card {
+        border-left: 4px solid #28a745;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .buffalo-feed-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    .bf-icon {
+        width: 52px;
+        text-align: center;
     }
 
     @media (max-width: 767px) {

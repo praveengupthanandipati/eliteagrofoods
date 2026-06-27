@@ -21,6 +21,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="img/logo.svg">
 </head>
 
 <body id="top">
@@ -49,7 +52,7 @@
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="https://eliteagrofoods.com/">
-                <img src="img/logo.svg" alt="Elite Agro Foods Logo"/>
+                <img src="img/logo.svg" alt="Elite Agro Foods Logo" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -57,11 +60,21 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <?php $current_page = basename($_SERVER['PHP_SELF']); ?>
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'index.php') ? 'active' : ''; ?>" href="https://eliteagrofoods.com/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'about.php') ? 'active' : ''; ?>" href="about.php">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'elitemart.php') ? 'active' : ''; ?>" href="elitemart.php">Elite Mart</a></li>
-                    <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'farmmilk.php') ? 'active' : ''; ?>" href="farmmilk.php">Farm Milk</a></li>
-                    <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>" href="contact.php">Contact</a></li>
+                    <li class="nav-item"><a
+                            class="nav-link <?php echo ($current_page == 'index.php') ? 'active' : ''; ?>"
+                            href="https://eliteagrofoods.com/">Home</a></li>
+                    <li class="nav-item"><a
+                            class="nav-link <?php echo ($current_page == 'about.php') ? 'active' : ''; ?>"
+                            href="about.php">About Us</a></li>
+                    <li class="nav-item"><a
+                            class="nav-link <?php echo ($current_page == 'elitemart.php') ? 'active' : ''; ?>"
+                            href="elitemart.php">Elite Mart</a></li>
+                    <li class="nav-item"><a
+                            class="nav-link <?php echo ($current_page == 'farmmilk.php') ? 'active' : ''; ?>"
+                            href="farmmilk.php">Farm Milk</a></li>
+                    <li class="nav-item"><a
+                            class="nav-link <?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>"
+                            href="contact.php">Contact</a></li>
                 </ul>
                 <div class="nav-cta ms-lg-4">
                     <a href="elitemart.php" class="btn btn-primary-elite">Shop Now</a>

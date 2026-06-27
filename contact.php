@@ -7,9 +7,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-10" data-aos="fade-down">
                 <span
-                    class="badge rounded-pill bg-secondary-elite text-primary-dark px-3 py-2 mb-4 letter-spacing-2">LET'S
-                    CONNECT</span>
-                <h1 class="display-2 fw-extrabold mb-4">How Can We <span class="text-gradient">Help You?</span></h1>
+                    class="badge rounded-pill bg-secondary-elite text-primary-dark px-3 py-2 mb-4 letter-spacing-2">LET'S CONNECT</span>
+                <h1 class="display-2 fw-extrabold mb-4">How Can We Help You? </h1>
                 <p class="lead opacity-75 mx-auto max-width-700">Whether you have a question about our farm-fresh
                     products, need assistance with your subscription, or just want to say hello, we're here for you.</p>
             </div>
